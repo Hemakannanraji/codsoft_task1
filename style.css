@@ -1,0 +1,205 @@
+body{
+    background-image: url(https://pxwall.com/wp-content/uploads/2019/03/Tropical-Beach-Landscape-1080p-Wallpapers.jpg);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+::selection{
+  color: #d13e3e;
+  background: #1b5ace;
+}
+nav{
+  position: fixed;
+  background:#b3e0ff ;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.menu .logo a{
+    text-decoration: none;
+    color: #006bb3;
+    font-size: 35px;
+    font-weight: 600;
+  }
+.menu ul{
+  display: flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+
+
+.menu ul li a{
+  text-decoration: none;
+  color: #006bb3;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+ 
+}
+.menu ul li a:hover{
+  background: #006bb3;
+  color: black;
+}
+.img{
+  background: url('https://img.freepik.com/free-photo/tropical-beach_74190-188.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color:hsl(204, 100%, 35%);
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color:#006bb3;
+  font-size: 52px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid #006bb3;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  color:#006bb3;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: #99d6ff;
+  color:#006bb3;
+}
+.center .btns button:last-child{
+  background: white;
+  color: #006bb3;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Basic styling for the footer */
+footer {
+    background-color:  #99d6ff;
+    color: #145c8c;
+    padding: 40px 20px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer-info,
+.footer-links,
+.footer-social {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+
+.footer-info h3,
+.footer-links h3,
+.footer-social h3 {
+    margin-bottom: 10px;
+}
+
+
+.footer-info p,
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-info p {
+    margin-bottom: 8px;
+}
+
+
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 5px;
+}
+
+
+.footer-links a,
+.footer-social a {
+    color:  #006bb3;
+    text-decoration: none;
+}
+
+
+.footer-links a:hover,
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
